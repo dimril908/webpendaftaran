@@ -1,0 +1,99 @@
+*{
+	padding:0;
+	margin:0;
+box-sizing: border-box;	
+}
+
+.Navbar{
+position:fixed;
+display:flex;
+justify-content:space-between;
+padding:20px 100px;
+width:100%;
+background: linear-gradient(90deg, #0000ff, #00ffff);
+}
+
+.TextNavbarKiri{
+text-decoration: none;
+color:white;
+font-weight: bold;
+font-size: 30px;
+margin:0;
+padding:0;
+display: flex;
+justify-content: left;
+}
+
+.TextNavbarKanan{
+color:white;
+border-radius: 60px;  
+text-decoration:none;
+font-size:20px;
+margin:40px;
+font-weight:bold;
+}
+
+.GambarDanText{
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.GambarDanTextKiri{
+    height:600px;
+    width:600px;
+}
+
+.GambarDanTextKanan{
+    padding:150px;
+    font-weight:bold;
+    font-size:50px;
+    display: flex;
+    justify-content: center;
+    margin:100px;
+    color:blue;
+}
+
+.pilihan{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+	display:flex;
+	justify-content:center;
+}
+
+
+.KotakPilihan{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.GambarPilihan{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.TombolPilihan{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+    padding: 10px 15px;
+     background: #0056b3;
+    border-radius: 60px;
+    width:50%;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
